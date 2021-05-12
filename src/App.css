@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -8,8 +12,7 @@ ul {
   position: fixed;
   width: 100%;
   box-shadow: grey 0 3px 5px;
-  text-align: center;
-  padding-left: 140px;
+  padding-left: 9%;
 }
 
 li {
@@ -31,4 +34,17 @@ li a:hover:not(.active) {
 
 .active {
   background-color: lightgray;
+}
+
+/* 타이틀 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: lightgray;
+}
+
+.header h1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 80px;
 }
