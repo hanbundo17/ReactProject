@@ -1,0 +1,15 @@
+/* 타이틀 */
+.head {
+  background: lightgray;
+  display: flex;
+  width: 100%;
+  padding-bottom: 40%;
+}
+
+.head h1 {
+  padding-bottom: 5%;
+  padding: 5%;
+  font-size: 80px;
+  /* position: absolute; */
+  width: 90%;
+}

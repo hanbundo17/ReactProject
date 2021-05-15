@@ -1,14 +1,13 @@
 import React from 'react';
+import Input from '../components/Input';
 import './home.css';
 
 function Home(){
     return (
-        <div className='HomeButton'>
-            {/* <form className='homeForm'>
-		        <button class="search">검색하기</button>
-	        </form> */}
-        </div>
-    );
+        <>
+        <Input/>
+        </>
+    )
 }
 
 export default Home;

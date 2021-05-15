@@ -1,10 +1,11 @@
 import React from 'react';
+import './header.css';
 
 function Header(){
     return(
-        <div className="header">
-            <h1>SM League Search</h1>
-        </div>
+        <div class='head'>
+		  <h1 class='header'>SM League Search</h1>
+	  </div>
     );
 }
 
