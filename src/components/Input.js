@@ -1,24 +1,37 @@
-import React, {useState} from 'react';
+import React, {Component} from 'react';
 import './input.css';
 
-function Input(){
-    const [input, setInputs] = useState({
-        name : ''
-    });
+class Input extends Component{
+    state = {
+        name:''
+    }
 
-    const {name} = input;
+    handleChange = (e) => {
+        this.setState({
+            [e.target.name] : e.target.value
+        })
+    }
 
-    const onChange = (e) => {
-        console.log(e.target.name);
-        console.log(e.target.value);
-    };
+    handleSubmit = (e) => {
+        e.preventDefault();
 
+        this.props.onCreate(this.state);
+
+        this.setState({
+            name:''
+        })
+    }
+
+    render(){
     return(
+        <form onSubmit={this.handleSubmit}>
         <div className='searchBox'>
-            <input name='name' className='inputBox' placeholder='소환사 이름을 입력해주세요.' onChange={onChange}/>
-            <button type='submit' className='searchBtn'>검색하기</button>
+            <input name='name' className='inputBox' placeholder='소환사 이름을 입력해주세요.' value={this.state.name} onChange={this.handleChange}/>
+            <button type='submit' className='searchBtn' onClick={this.handleSubmit}>검색하기</button>
         </div>
+        </form>
     );
+    }
 }
 
 export default Input;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Input from '../components/Input';
 import './home.css';
 import menu1 from '../images/menu1.jpg';
@@ -8,11 +8,18 @@ import menu4 from '../images/menu4.jpg';
 import menu5 from '../images/menu5.jpg';
 
 
-function Home(){
+class Home extends Component{
+    handleCreate = (data) => {
+        console.log(data);
+    }
+
+    render(){
     return (
         <>
-        <Input/>
-
+        <div>
+        <Input onCreate={this.handleCreate}/>
+        </div>
+        
         <div className='img-box'>
             <div className='box'><img src={menu1}/><div class="title">챔피언별 승률 검색</div></div>
             <div className='box'><img scr={menu2}/><div class="title2">라인별 승률 검색</div></div>
@@ -22,6 +29,7 @@ function Home(){
         </div>
         </>
     );
+    }
 }
 
 export default Home;
