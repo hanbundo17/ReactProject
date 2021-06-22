@@ -1,0 +1,86 @@
+.UserName {
+  position: absolute;
+  margin-top: -850px;
+  margin-left: 200px;
+  background-color: coral;
+  width: 350px;
+  height: 50px;
+}
+
+.getNew {
+  position: absolute;
+  margin-top: -850px;
+  margin-left: 600px;
+}
+
+.graph {
+  position: absolute;
+  margin-top: -775px;
+  margin-left: 200px;
+  width: 1300px;
+  height: 150px;
+  background-color: white;
+}
+
+.short {
+  position: absolute;
+  margin-top: -600px;
+  padding-left: 200px;
+  padding-bottom: 900px;
+  width: 350px;
+  height: 300px;
+  background-color: lightgray;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.right {
+  margin-top: -150px;
+  margin-left: 200px;
+  width: 150px;
+  height: 200px;
+  background-color: thistle;
+}
+
+.searchTop {
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 575px;
+  width: 925px;
+  height: 150px;
+}
+
+.pieGraph {
+  width: 300px;
+  height: 150px;
+  background-color: thistle;
+}
+
+.mostPick {
+  margin-top: -150px;
+  margin-left: 300px;
+  width: 325px;
+  height: 150px;
+  background-color: darkolivegreen;
+}
+
+.mostPosition {
+  margin-top: -150px;
+  margin-left: 625px;
+  width: 300px;
+  height: 150px;
+  background-color: darkorange;
+}
+
+.list {
+  position: absolute;
+  margin-top: -425px;
+  margin-left: 575px;
+  width: 925px;
+  height: 1000px;
+  background-color: darkorange;
+}

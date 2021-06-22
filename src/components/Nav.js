@@ -1,18 +1,11 @@
 import React from 'react';
 import './nav.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import Home from '../pages/Home';
-import User from '../pages/User';
-import Champion from '../pages/Chamipon';
-import Line from '../pages/Line';
-import Complex from '../pages/Complex';
-import Item from '../pages/Item';
-import Leader from '../pages/Leader';
+
 
 function Header(){
     return(
       <>
-        <Router>
         <div className='relative'>
         <nav>
         <ul>
@@ -27,16 +20,8 @@ function Header(){
         </div>
         </ul>
         </nav>
-
-      <Route path="/" component={Home} exact={true}/>
-      <Route path="/user" component={User}/>
-      <Route path="/champion" component={Champion}/>
-      <Route path="/line" component={Line}/>
-      <Route path="/complex" component={Complex}/>
-      <Route path="/item" component={Item}/>
-      <Route path="/leader" component={Leader}/>
       </div>
-     </Router>   
+
 
      
      </>

@@ -6,6 +6,7 @@ import menu2 from '../images/menu2.jpg';
 import menu3 from '../images/menu3.jpg';
 import menu4 from '../images/menu4.jpg';
 import menu5 from '../images/menu5.jpg';
+import Test from '../components/Test'
 
 
 class Home extends Component{
@@ -17,7 +18,7 @@ class Home extends Component{
     return (
         <>
         <div>
-        <Input onCreate={this.handleCreate}/>
+        <Input onCreate={this.handleCreate} history ={this.props.history}/>
         </div>
         
         <div className='img-box'>
@@ -27,6 +28,7 @@ class Home extends Component{
             <div className='box'><img scr={menu4}/><div class="title4">아이템 티어 순위 검색</div></div>
             <div className='box'><img scr={menu5}/><div class="title5">리더보드</div></div>
         </div>
+        <Test />
         </>
     );
     }
