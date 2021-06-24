@@ -1,0 +1,25 @@
+.allInfo {
+  background-color: aquamarine;
+  height: 200px;
+}
+
+.allLeft {
+  background-color: blue;
+  width: 75px;
+  height: 200px;
+  float: left;
+}
+
+.mininfo {
+  background-color: burlywood;
+  width: 175px;
+  float: left;
+  height: 200px;
+}
+
+.score {
+  background-color: cadetblue;
+  width: 100px;
+  height: 200px;
+  float: left;
+}
