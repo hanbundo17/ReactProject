@@ -32,7 +32,7 @@ function search(){
         <Info tier="마스터"  winrate = "65%"  photo = "photo" point= "75p"/>
 
         <div className='searchTop'>
-            <div className='pieGraph'>그래프</div>
+            <div className='pieGraph'>승패그래프</div>
             <div className='mostPick'>
                 <Picked pickedpic='바루스' champname='바루스' pickedrate='35%' win='3' lose='1' grade='2.44'/>
                 <Picked pickedpic='애니' champname='애니' pickedrate='35%' win='2' lose='1' grade='2.44'/>
@@ -46,13 +46,13 @@ function search(){
         </div>
 
         <div className='list'>
-            <History type='솔랭' when='2' />
-            <Mininfo minipic='쓰레쉬' spell1='점멸' spell2='점화' lun1='뼈' lun2='감전' champname='쓰레쉬'/>
-            <Score/>
-            <Levcs/>
+            <History type='솔랭' when='2' result='승리'/>
+            <Mininfo minipic='' spell1='스펠1' spell2='스펠2' lun1='룬1' lun2='룬2' champname='쓰레쉬'/>
+            <Score kill='7' death='3' assi='13' gra='3.5'/>
+            <Levcs level='18' cs='250' Kasi='46'/>
             <Item/>
-            <Team/>
-            <Team/>
+            <Team ID1='소환사ID1' ID2='소환사ID2' ID3='소환사ID3' ID4='소환사ID4' ID5='소환사ID5'/>
+            <Team ID1='소환사ID6' ID2='소환사ID7' ID3='소환사ID8' ID4='소환사ID9' ID5='소환사ID10'/>
         </div>
         </>
     );

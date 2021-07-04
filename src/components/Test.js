@@ -10,7 +10,7 @@ const data = {
       label: "Tier graph",
       data: [33, 25, 35, 51, 54, 76],
       fill: false,
-      borderColor: "#742774"
+      borderColor: "cornflowerblue"
     }
   ]
 };

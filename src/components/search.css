@@ -2,9 +2,11 @@
   position: absolute;
   margin-top: -850px;
   margin-left: 200px;
-  background-color: coral;
+  background-color: lightgray;
   width: 350px;
   height: 50px;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .getNew {
@@ -44,7 +46,7 @@
   margin-left: 200px;
   width: 150px;
   height: 200px;
-  background-color: thistle;
+  background-color: aliceblue;
 }
 
 .searchTop {
@@ -66,7 +68,7 @@
   margin-left: 300px;
   width: 325px;
   height: 160px;
-  background-color: darkolivegreen;
+  background-color: aliceblue;
 }
 
 .mostPosition {

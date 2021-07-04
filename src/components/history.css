@@ -5,31 +5,80 @@
 }
 
 .allLeft {
-  background-color: blue;
+  background-color: aliceblue;
   width: 75px;
-  height: 200px;
+  height: 145px;
   float: left;
+  padding-top: 55px;
+  text-align: center;
 }
 
 .mininfo {
-  background-color: burlywood;
-  width: 200px;
+  background-color: aliceblue;
+  width: 185px;
   float: left;
-  height: 200px;
+  height: 150px;
+  padding-left: 15px;
+  padding-top: 50px;
+}
+
+.minipic {
+  width: 70px;
+  height: 70px;
+  background-color: cornflowerblue;
+  float: left;
+  border-radius: 90px;
+}
+
+.spells {
+  width: 40px;
+  height: 80px;
+  background-color: aliceblue;
+  float: left;
+  margin-left: 5px;
+}
+
+.spell {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: cornflowerblue;
+}
+
+.luns {
+  width: 40px;
+  height: 80px;
+  background-color: aliceblue;
+  margin-left: 125px;
+}
+
+.lun {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: cornflowerblue;
+}
+
+.champname {
+  text-align: center;
 }
 
 .score {
-  background-color: cadetblue;
+  background-color: aliceblue;
   width: 75px;
-  height: 200px;
+  height: 135px;
+  padding-top: 65px;
   float: left;
+  text-align: center;
 }
 
 .levcs {
   width: 100px;
-  height: 200px;
+  height: 150px;
   float: left;
-  background-color: antiquewhite;
+  background-color: aliceblue;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .item {
@@ -43,7 +92,7 @@
 .items {
   width: 40px;
   height: 40px;
-  background-color: coral;
+  background-color: cornflowerblue;
   float: left;
   border-radius: 10%;
   margin: 1px;
@@ -59,7 +108,7 @@
 .teamPic {
   width: 35px;
   height: 35px;
-  background-color: cadetblue;
+  background-color: cornflowerblue;
   margin-left: 10px;
   margin-bottom: 5px;
 }

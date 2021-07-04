@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Score({kill, death, assi, gra,}){
+function Score({kill, death, assi, gra}){
     return(
         <>
              <div className='score'>
