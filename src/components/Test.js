@@ -7,7 +7,7 @@ const data = {
   datasets: [
 
     {
-      label: "Second dataset",
+      label: "Tier graph",
       data: [33, 25, 35, 51, 54, 76],
       fill: false,
       borderColor: "#742774"

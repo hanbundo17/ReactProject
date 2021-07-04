@@ -5,7 +5,14 @@ import Info from './Info';
 import Position from './Position';
 import Picked from './Picked';
 import History from './History';
+import Mininfo from './Mininfo';
+import Score from './Score';
+import Levcs from './Levcs';
+import Item from './Item';
+import Team from './Team';
 
+
+// 소환사검색페이지
 function search(){
 
     return(
@@ -39,7 +46,13 @@ function search(){
         </div>
 
         <div className='list'>
-            <History type='솔랭' when='2' minipic='쓰레쉬' spell1='점멸' spell2='점화' lun1='뼈' lun2='감전' champname='쓰레쉬'/>
+            <History type='솔랭' when='2' />
+            <Mininfo minipic='쓰레쉬' spell1='점멸' spell2='점화' lun1='뼈' lun2='감전' champname='쓰레쉬'/>
+            <Score/>
+            <Levcs/>
+            <Item/>
+            <Team/>
+            <Team/>
         </div>
         </>
     );

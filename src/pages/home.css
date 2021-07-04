@@ -4,7 +4,7 @@
 
 .img-box {
   position: absolute;
-  margin-top: 450px;
+  margin-top: -650px;
   margin-left: 100px;
   background-color: lightgray;
   display: inline-flex;

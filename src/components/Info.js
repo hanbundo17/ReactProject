@@ -1,6 +1,7 @@
 import React from 'react';
 import './search.css';
 
+// 맨왼쪽
 function Info({photo,tier,point,winrate}){
     return(
     <div className='short'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './position.css'
 
+// 티어 그래프 밑 선호포지션
 function Position({Linepic, Linename, pickrate, winrate}){
     return(
         <>

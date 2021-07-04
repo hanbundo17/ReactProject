@@ -1,6 +1,7 @@
 .allInfo {
   background-color: aquamarine;
   height: 200px;
+  float: left;
 }
 
 .allLeft {
@@ -12,14 +13,42 @@
 
 .mininfo {
   background-color: burlywood;
-  width: 175px;
+  width: 200px;
   float: left;
   height: 200px;
 }
 
 .score {
   background-color: cadetblue;
+  width: 75px;
+  height: 200px;
+  float: left;
+}
+
+.levcs {
   width: 100px;
   height: 200px;
   float: left;
+  background-color: antiquewhite;
+}
+
+.item {
+  width: 175px;
+  height: 200px;
+  float: left;
+  background-color: blueviolet;
+}
+
+.teampic {
+  width: 50px;
+  height: 200px;
+  float: left;
+  background-color: brown;
+}
+
+.teamname {
+  float: left;
+  width: 100px;
+  height: 200px;
+  background-color: burlywood;
 }
