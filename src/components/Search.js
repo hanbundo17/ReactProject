@@ -10,6 +10,7 @@ import Score from './Score';
 import Levcs from './Levcs';
 import Item from './Item';
 import Team from './Team';
+import Graph2 from './Graph2';
 
 
 // 소환사검색페이지
@@ -32,7 +33,7 @@ function search(){
         <Info tier="마스터"  winrate = "65%"  photo = "photo" point= "75p"/>
 
         <div className='searchTop'>
-            <div className='pieGraph'>승패그래프</div>
+            <div className='pieGraph'><Graph2/></div>
             <div className='mostPick'>
                 <Picked pickedpic='바루스' champname='바루스' pickedrate='35%' win='3' lose='1' grade='2.44'/>
                 <Picked pickedpic='애니' champname='애니' pickedrate='35%' win='2' lose='1' grade='2.44'/>
