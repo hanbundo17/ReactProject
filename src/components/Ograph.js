@@ -1,31 +1,27 @@
-// import React from 'react';
-// import ApexCharts from 'apexcharts';
-// import {Bar} from 'react-chartjs-2';
+import React from 'react';
+import {VictoryBar} from 'victory';
 
-// const data = {
-//     datasets:[
-//         {
-//             data:[33, 55]
-//         }
-//     ]
-// }
+const data = [
+    { vacationSpot: "산", vote: 50 },
 
-// const options = {
-//     chart: {
-//         type: 'bar',
-//         height: 350,
-//         stacked: true,
-//         stackType: '100%'
-//       }
-     
-// }
+  ];
 
-// function Ograph(){
-//     return(
-//         <div>
-//             <ReactApexChart data={data} options={options}/>
-//         </div>
-//     );
-// }
+const Chart = () => {
+    return (
+      <div>
+        <VictoryBar horizontal data={data} x="vacationSpot" y="vote" />
+      </div>
+    );
+  };
 
-// export default Ograph;
+function Ograph(){
+    return(
+        <div>
+
+        <VictoryBar horizontal data={data} x="vacationSpot" y="vote" width='250' height='10' />
+
+        </div>
+    );
+}
+
+export default Ograph;

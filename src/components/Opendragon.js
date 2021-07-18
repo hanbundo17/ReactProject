@@ -17,8 +17,8 @@ function Opendragon({cat, dragon, baron, cat1, dragon1, baron1}){
         </div>
 
         <div className='dragonGraph'>
-            <div><Test/></div>
-            <div><Test/></div>
+            <div><Ograph/></div>
+            <div><Ograph/></div>
         </div>
 
         <div className='monster'>
