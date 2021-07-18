@@ -3,9 +3,9 @@
 }
 
 .img-box {
-  position: absolute;
-  margin-top: -650px;
-  margin-left: 100px;
+  /* position: absolute; */
+  padding-top: 50px;
+  padding-left: 100px;
   background-color: lightgray;
   display: inline-flex;
 }

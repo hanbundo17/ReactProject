@@ -1,7 +1,7 @@
 .searchBox {
-  margin-top: -800px;
-  margin-left: 35%;
-  position: absolute;
+  /* margin-top: 200px; */
+  padding-left: 35%;
+  /* position: absolute; */
   background-color: lightgray;
 }
 .inputBox {

@@ -12,6 +12,7 @@ import Item from './pages/Item';
 import Leader from './pages/Leader';
 import Nav from './components/Nav';
 import Search from './components/Search';
+import Openteam from './components/Openteam';
 
 function App() {
   return (
@@ -23,9 +24,9 @@ function App() {
       <Header/>
       <Switch>
       <Route path="/" component={Home} exact={true}/>
-      <Route path="/user" component={User}/>
+      <Route path="/user" component={Search}/>
       <Route path="/champion" component={Champion}/>
-      <Route path="/line" component={Search}/>
+      <Route path="/line" component={Line}/>
       <Route path="/complex" component={Complex}/>
       <Route path="/item" component={Item}/>
       <Route path="/leader" component={Leader}/>
@@ -33,6 +34,7 @@ function App() {
       </Router>
       </div>
 
+      
      
 
 

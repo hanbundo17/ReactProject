@@ -1,6 +1,6 @@
 .lineBtnbox {
   position: absolute;
-  margin-top: 300px;
+  /* margin-top: 300px; */
   margin-left: 25%;
 }
 
@@ -22,7 +22,7 @@
   position: absolute;
   display: inline;
   padding-left: 25%;
-  margin-top: 350px;
+  margin-top: 50px;
   background-color: lightgray;
   width: 75%;
 }

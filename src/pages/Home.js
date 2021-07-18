@@ -28,7 +28,6 @@ class Home extends Component{
             <div className='box'><img scr={menu4}/><div class="title4">아이템 티어 순위 검색</div></div>
             <div className='box'><img scr={menu5}/><div class="title5">리더보드</div></div>
         </div>
-
         </>
     );
     }

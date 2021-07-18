@@ -4,7 +4,7 @@ import { Doughnut } from "react-chartjs-2";
 const data = {
   labels: ['승', '패'],
   datasets: [{
-      data: [11, 9],
+      data: [11, 50],
       backgroundColor: ['#FF6384', '#36A2EB'],
       hoverBackgroundColor: ['#FF6384', '#36A2EB']
   }]
@@ -14,11 +14,11 @@ const options= {
   responsive: false
   };
 
-
 const donut= {
 		expand: false,
 		title: '50%'
 	  }
+    
 function Graph_two(){
     return(
         <div>

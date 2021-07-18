@@ -6,7 +6,7 @@ function Header(){
     return(
         <div class='head'>
 		  <h1 class='header'>SM League Search</h1>
-          {/* <Input/> */}
+
 	  </div>
     );
 }

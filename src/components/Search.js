@@ -11,13 +11,16 @@ import Levcs from './Levcs';
 import Item from './Item';
 import Team from './Team';
 import Graph2 from './Graph2';
+import Openedhied from './Openedhied';
 
 
 // 소환사검색페이지
 function search(){
+    const disableddata = () => {
 
+    }
     return(
-        <>
+        <div>
         <div className='UserName'>
             소환사이름 
         </div>
@@ -41,8 +44,8 @@ function search(){
             </div>
             <div className='mostPosition'>
                 <p>선호 포지션</p>
-                <Position Linepic='원딜' Linename='원딜' pickrate='55%' winrate='50%'/>
-                <Position Linepic='미드' Linename='미드' pickrate='50%' winrate='40%'/>
+                <Position Linepic='' Linename='원딜' pickrate='55%' winrate='50%'/>
+                <Position Linepic='' Linename='미드' pickrate='50%' winrate='40%'/>
             </div>
         </div>
 
@@ -54,8 +57,22 @@ function search(){
             <Item/>
             <Team ID1='소환사ID1' ID2='소환사ID2' ID3='소환사ID3' ID4='소환사ID4' ID5='소환사ID5'/>
             <Team ID1='소환사ID6' ID2='소환사ID7' ID3='소환사ID8' ID4='소환사ID9' ID5='소환사ID10'/>
+            
+            <Openedhied />
         </div>
-        </>
+       
+        <div className='list'>
+            <History type='솔랭' when='2' result='승리'/>
+            <Mininfo minipic='' spell1='스펠1' spell2='스펠2' lun1='룬1' lun2='룬2' champname='쓰레쉬'/>
+            <Score kill='7' death='3' assi='13' gra='3.5'/>
+            <Levcs level='18' cs='250' Kasi='46'/>
+            <Item/>
+            <Team ID1='소환사ID1' ID2='소환사ID2' ID3='소환사ID3' ID4='소환사ID4' ID5='소환사ID5'/>
+            <Team ID1='소환사ID6' ID2='소환사ID7' ID3='소환사ID8' ID4='소환사ID9' ID5='소환사ID10'/>
+            
+            <Openedhied />
+        </div>
+        </div>
     );
 }
 
